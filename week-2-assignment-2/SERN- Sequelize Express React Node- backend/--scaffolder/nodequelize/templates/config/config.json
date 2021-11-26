@@ -1,0 +1,20 @@
+{
+    "production": {
+        "username": "{{production.username}}",
+        "password": "{{production.password}}",
+        "database": "{{production.database}}",
+        "host": "{{production.host}}",
+        "port": {{production.port}},
+        "dialect": "{{production.dialect}}",
+        "storage": "production.db"
+    },
+    "development": {
+        "username": "{{development.username}}",
+        "password": "{{development.password}}",
+        "database": "{{development.database}}",
+        "host": "{{development.host}}",
+        "port": {{development.port}},
+        "dialect": "{{development.dialect}}",
+        "storage": "development.db"
+    }
+  }

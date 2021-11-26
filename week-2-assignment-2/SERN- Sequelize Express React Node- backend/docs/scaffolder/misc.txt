@@ -1,0 +1,153 @@
+node C:\Users\jsadler\Documents\projects-1\assign-1\nodequelize\index.js create_project my_api_settings.json
+node \nodequelize\index.js create_project my_api_settings.json
+
+Dependencies
+
+    "basic-auth": "^2.0.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jade": "^1.11.0",
+    "sequelize": "^4.37.8",
+    "sqlite3": "^5.0.2",
+    "swapi-node": "^0.7.0",
+    "winston": "^2.4.2"
+
+Database settings
+
+{
+    "production": {
+        "username": "username-prod",
+        "password": "password-prod",
+        "database": "database-prod",
+        "host": "host-prod",
+        "port": port-prod,
+        "dialect": "sqlite",
+        "storage": "production.db"
+    },
+    "development": {
+        "username": "username-dev",
+        "password": "password-dev",
+        "database": "database-dev",
+        "host": "host-dev",
+        "port": port-dev,
+        "dialect": "sqlite",
+        "storage": "development.db"
+    }
+  }
+
+
+{
+    "production": {
+        "dialect": "sqlite",
+        "storage": "production.db"
+    },
+    "development": {
+        "dialect": "sqlite",
+        "storage": "development.db"
+    }
+  }
+
+
+models/index.js
+
+
+  sequelize = new Sequelize(config.database, config.username, config.password, {
+    host: config.host,
+    port: config.port,
+    dialect: config.dialect,
+    operatorsAliases: false,
+    storage:"./main-database.db"
+  });
+
+
+
+npm install --save sequelize-cli
+
+node_modules/.bin/sequelize db:migrate
+
+
+https://swapi.dev/api/people/1/
+
+Factions
+1,2,3,4
+{
+"galatic_empire":false,
+"jedi_order": false,
+"no_faction": false,
+"rebel_alliance": true
+}
+
+Micks, Musgrave, Fairway, Knutsford
+
+Deck
+1,3,3,2 - unlimited
+{
+    "name":"Micks Group",
+    "FactionId":1
+}
+
+Card
+1-5
+{
+"swid":"null",
+"person_url":"https://swapi.dev/api/people/1/",
+
+}
+
+
+
+1
+1,2
+{
+"swid":"null",
+"person_url":"https://swapi.dev/api/people/1/",
+"DeckId":1
+
+}
+
+2
+3,4
+{
+"swid":"null",
+"person_url":"https://swapi.dev/api/people/3/",
+"DeckId":2
+
+}
+
+3
+,5
+{
+"swid":"null",
+"person_url":"https://swapi.dev/api/people/5/",
+"DeckId":3
+
+}
+
+
+
+
+https://www.codegrepper.com/code-examples/shell/how+to+install+nodemon+in+project
+node ./bin/www
+nodemon my_file.js
+nodemon ./bin/www
+
+Swagger API Docs
+swagger-jsdoc
+
+npm install swagger-jsdoc --save
+npm install swagger-ui-express --save
+
+https://brikev.github.io/express-jsdoc-swagger-docs/#/examples
+https://dev.to/kabartolo/how-to-document-an-express-api-with-swagger-ui-and-jsdoc-50do
+https://github.com/Surnet/swagger-jsdoc/blob/v6/examples/app/routes.js
+https://swagger.io/docs/specification/2-0/paths-and-operations/
+https://swagger.io/docs/specification/2-0/describing-parameters/#path-parameters
+
+npm install swagger-jsdoc@5.0.1 --save-exact
+npm install swagger-jsdoc@5.0.1 --save
+
+
+
+

@@ -1,0 +1,21 @@
+{"level":"error","message":"Read on Card with error: TypeError: Cannot read property 'length' of undefined","timestamp":"2021-11-18T04:04:14.118Z"}
+{"level":"error","message":"Read on Card with error: TypeError: Cannot read property 'length' of undefined","timestamp":"2021-11-18T04:05:08.953Z"}
+{"level":"error","message":"Read on Card with error: TypeError: Cannot read property 'length' of undefined","timestamp":"2021-11-18T04:05:24.686Z"}
+{"level":"error","message":"Read on Card with error: ReferenceError: resulta is not defined","timestamp":"2021-11-18T04:09:00.543Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T04:13:47.725Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T04:19:29.643Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T04:19:30.009Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T04:26:24.465Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T04:33:35.962Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T04:38:25.881Z"}
+{"level":"error","message":"Read on Card with error: ReferenceError: vehiclesArray is not defined","timestamp":"2021-11-18T05:20:44.553Z"}
+{"level":"error","message":"Read on Card with error: ReferenceError: parseVehiclesNameArrayTakeName is not defined","timestamp":"2021-11-18T05:53:54.525Z"}
+{"level":"error","message":"Read on Card with error: ReferenceError: vehiclesArrayName is not defined","timestamp":"2021-11-18T05:56:46.872Z"}
+{"level":"error","message":"Read on Card with error: ReferenceError: vehiclesArrayName is not defined","timestamp":"2021-11-18T05:59:12.723Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T18:05:04.721Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T18:16:09.047Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T19:13:29.346Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T19:57:26.759Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T20:51:30.332Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T20:51:46.476Z"}
+{"level":"error","message":"Read on Card with error: Error: 404","timestamp":"2021-11-18T20:51:57.286Z"}

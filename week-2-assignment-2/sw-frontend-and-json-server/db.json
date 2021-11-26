@@ -1,0 +1,39 @@
+{
+  "cards": [
+    {
+      "text": "Group A",
+      "faction": "REBEL",
+      "cardida": 5,
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "Group A",
+      "faction": "REBEL",
+      "cardida": 1,
+      "reminder": true,
+      "id": 2
+    },
+    {
+      "text": "Group B",
+      "faction": "EMPIRE",
+      "cardida": 2,
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "Group B",
+      "faction": "EMPIRE",
+      "cardida": 3,
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "Group B",
+      "faction": "EMPIRE",
+      "cardida": 8,
+      "reminder": false,
+      "id": 5
+    }
+  ]
+}

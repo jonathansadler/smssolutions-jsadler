@@ -1,0 +1,169 @@
+/* screen - create-deck */
+
+.create-deck {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  padding: 16px 0;
+  width: 256px;
+}
+
+.create-deck .flex-row {
+  align-items: flex-start;
+  display: flex;
+  min-width: 232px;
+}
+
+.create-deck .text-label {
+  letter-spacing: 0;
+  line-height: 14px;
+  min-height: 14px;
+  min-width: 47px;
+  white-space: nowrap;
+}
+
+.create-deck .buts {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 29px;
+  min-width: 156px;
+}
+
+.create-deck .but-rebel {
+  align-items: flex-end;
+  background-color: var(--quill-gray);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  overflow: hidden;
+  padding: 4.0px 6.0px;
+  width: 36px;
+}
+
+.create-deck .icon {
+  align-items: flex-end;
+  display: flex;
+  height: 24px;
+  padding: 2.0px 1.8px;
+  width: 24px;
+}
+
+.create-deck .vector {
+  height: 20px;
+  width: 20px;
+}
+
+.create-deck .but {
+  align-items: flex-end;
+  background-color: var(--quill-gray);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  margin-left: 4px;
+  overflow: hidden;
+  padding: 4.0px 6.0px;
+  width: 36px;
+}
+
+.create-deck .icon-1 {
+  align-items: flex-end;
+  display: flex;
+  overflow: hidden;
+  width: 24px;
+}
+
+.create-deck .overlap-group {
+  height: 24px;
+  margin-bottom: 0;
+  position: relative;
+  width: 24px;
+}
+
+.create-deck .path14 {
+  height: 18px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 18px;
+}
+
+.create-deck .path1 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.create-deck .icon-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 24px;
+  padding: 1.0px 1.0px;
+  width: 24px;
+}
+
+.create-deck .overlap-group-1 {
+  align-items: flex-start;
+  background-image: url(../img/path2178@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 22px;
+  min-width: 22px;
+  padding: 1.0px 1.0px;
+}
+
+.create-deck .path2176 {
+  height: 20px;
+  width: 20px;
+}
+
+.create-deck .icon-3 {
+  align-items: flex-end;
+  display: flex;
+  height: 24px;
+  width: 24px;
+}
+
+.create-deck .overlap-group-2 {
+  height: 23px;
+  margin-left: 1px;
+  position: relative;
+  width: 23px;
+}
+
+.create-deck .vector-1 {
+  height: 19px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 19px;
+}
+
+.create-deck .vector-2 {
+  height: 23px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.create-deck .field {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 12px;
+  margin-top: 30px;
+  min-height: 14px;
+  white-space: nowrap;
+}
+
+.create-deck .seperator {
+  background-color: var(--mountain-mist);
+  border-radius: 1px;
+  height: 1px;
+  margin-top: 8px;
+  width: 232px;
+}

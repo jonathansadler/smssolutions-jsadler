@@ -1,0 +1,1165 @@
+body {
+  margin: 0; 
+  background: #ededed;
+  overflow-x:hidden;
+}
+
+/* React Router Corrections */
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+/* React Router Corrections */
+
+
+
+/*Original*/
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+*/
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task.reminder {
+  border-left: 5px solid green;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/*Original*/
+
+/*Anima*/
+
+
+/* screen - all-cards-desktop */
+
+.all-cards-desktop {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 62px 108px;
+  width: 1440px;
+}
+
+.all-cards-desktop .header {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 82px;
+  width: 1176px;
+}
+
+.all-cards-desktop .menu {
+  align-items: center;
+  display: flex;
+  min-width: 1176px;
+}
+
+.all-cards-desktop .buttons {
+  align-items: flex-start;
+  display: flex;
+  min-width: 212px;
+}
+
+.all-cards-desktop .all-cards-but {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  min-width: 112px;
+  padding: 0 12px;
+}
+
+.all-cards-desktop .icon {
+  align-items: flex-end;
+  display: flex;
+  overflow: hidden;
+  padding: 0 1.8px;
+  width: 16px;
+}
+
+.all-cards-desktop .overlap-group {
+  height: 16px;
+  margin-bottom: -0.25px;
+  position: relative;
+  width: 12px;
+}
+
+.all-cards-desktop .vector {
+  height: 14px;
+  left: 4px;
+  position: absolute;
+  top: 2px;
+  width: 8px;
+}
+
+.all-cards-desktop .vector-1 {
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.all-cards-desktop .all-cards {
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 8px;
+  min-height: 16px;
+  min-width: 64px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .decks-but {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  margin-left: 8px;
+  min-width: 92px;
+  padding: 0 12px;
+}
+
+.all-cards-desktop .icon-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 16px;
+  padding: 0.7px 0;
+  width: 16px;
+}
+
+.all-cards-desktop .overlap-group-2 {
+  height: 14px;
+  position: relative;
+  width: 16px;
+}
+
+.all-cards-desktop .vector-8 {
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.all-cards-desktop .vector-9 {
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 16px;
+}
+
+.all-cards-desktop .decks {
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 8px;
+  min-height: 16px;
+  min-width: 44px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .page-title {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 326px;
+  min-height: 20px;
+  min-width: 182px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .name-title {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  margin-left: 326px;
+  min-width: 129px;
+  padding: 0 12px;
+}
+
+.all-cards-desktop .name {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 105px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .seperator {
+  background-color: var(--pink-swan);
+  border-radius: 2px;
+  height: 2px;
+  margin-top: 48px;
+  width: 1176px;
+}
+
+.all-cards-desktop .content {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  min-height: 750px;
+  width: 1200px;
+}
+
+.all-cards-desktop .overlap-group2 {
+  height: 32px;
+  position: relative;
+  width: 346px;
+}
+
+.all-cards-desktop .bread-crumb-a-child {
+  left: 157px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 189px;
+}
+
+.all-cards-desktop .bread-crumb-arrow-b {
+  align-items: flex-start;
+  display: flex;
+  height: 12px;
+  left: 190px;
+  padding: 0 2.0px;
+  position: absolute;
+  top: 2px;
+  width: 12px;
+}
+
+.all-cards-desktop .vector-2 {
+  height: 12px;
+  margin-left: 1px;
+  width: 7px;
+}
+
+.all-cards-desktop .bread-crumb-a-child-1 {
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 189px;
+}
+
+.all-cards-desktop .bread-crumb-arrow-a {
+  align-items: flex-start;
+  display: flex;
+  height: 12px;
+  left: 70px;
+  padding: 0 2.0px;
+  position: absolute;
+  top: 2px;
+  width: 12px;
+}
+
+.all-cards-desktop .bread-crumb-a-parent {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .query {
+  align-items: flex-start;
+  border-radius: 8px;
+  display: flex;
+  margin-top: 8px;
+  min-width: 626px;
+}
+
+.all-cards-desktop .input-feild {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  min-width: 352px;
+  padding: 0 8px;
+}
+
+.all-cards-desktop .text {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 50px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .search-icon {
+  align-items: flex-end;
+  display: flex;
+  height: 16px;
+  margin-left: 270px;
+  overflow: hidden;
+  width: 16px;
+}
+
+.all-cards-desktop .overlap-group-3 {
+  height: 15px;
+  margin-bottom: -0.12px;
+  margin-left: 1px;
+  position: relative;
+  width: 15px;
+}
+
+.all-cards-desktop .vector-10 {
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+
+.all-cards-desktop .vector-11 {
+  height: 5px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 5px;
+}
+
+.all-cards-desktop .query-buttons {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 6px;
+  min-width: 226px;
+}
+
+.all-cards-desktop .but-c {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  min-width: 63px;
+  padding: 0 10px;
+}
+
+.all-cards-desktop .but-c-text {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 43px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .but-b {
+  align-items: center;
+  background-color: var(--mercury);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  margin-left: 6px;
+  min-width: 87px;
+  padding: 0 10px;
+}
+
+.all-cards-desktop .but-b-text {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 67px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .but-a {
+  align-items: center;
+  background-color: var(--mercury);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  margin-left: 6px;
+  min-width: 64px;
+  padding: 0 10px;
+}
+
+.all-cards-desktop .but-a-text {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 44px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .butt-add {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  margin-left: 556px;
+  overflow: hidden;
+  padding: 0 12px;
+  width: 36px;
+}
+
+.all-cards-desktop .icon-2 {
+  align-items: flex-start;
+  display: flex;
+  width: 12px;
+}
+
+.all-cards-desktop .overlap-group-1 {
+  height: 12px;
+  position: relative;
+  width: 12px;
+}
+
+.all-cards-desktop .vector-3 {
+  height: 12px;
+  left: 5px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.all-cards-desktop .vector-4 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 12px;
+}
+
+.all-cards-desktop .card {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  margin-top: 24px;
+  overflow: hidden;
+  width: 334px;
+}
+
+.all-cards-desktop .top {
+  align-items: flex-start;
+  background-color: var(--mountain-mist);
+  display: flex;
+  height: 98px;
+  padding: 10px 14px;
+  width: 334px;
+}
+
+.all-cards-desktop .flex-col {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2px;
+  min-height: 72px;
+  width: 164px;
+}
+
+.all-cards-desktop .name-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 32px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .but-1 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  margin-left: 12px;
+  margin-top: 6px;
+  overflow: hidden;
+  padding: 0 12px;
+  width: 36px;
+}
+
+.all-cards-desktop .icon-3 {
+  align-items: flex-start;
+  display: flex;
+  width: 12px;
+}
+
+.all-cards-desktop .but {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  margin-left: 10px;
+  margin-top: 6px;
+  overflow: hidden;
+  padding: 0 12px;
+  width: 36px;
+}
+
+.all-cards-desktop .icon-4 {
+  align-items: flex-start;
+  display: flex;
+  width: 12px;
+}
+
+.all-cards-desktop .vector-12 {
+  height: 12px;
+  width: 12px;
+}
+
+.all-cards-desktop .icon-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 12px;
+  width: 12px;
+}
+
+.all-cards-desktop .overlap-group-4 {
+  height: 3px;
+  position: relative;
+  width: 12px;
+}
+
+.all-cards-desktop .vector-13 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 12px;
+}
+
+.all-cards-desktop .vector-14 {
+  height: 3px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 4px;
+}
+
+.all-cards-desktop .vector-15 {
+  height: 8px;
+  margin-left: 2.0px;
+  margin-top: 1px;
+  width: 8px;
+}
+
+.all-cards-desktop .content-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  min-height: 152px;
+  width: 302px;
+}
+
+.all-cards-desktop .info-a {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 24px;
+  width: 302px;
+}
+
+.all-cards-desktop .content-2 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 302px;
+}
+
+.all-cards-desktop .left {
+  align-items: center;
+  display: flex;
+  height: 14px;
+  min-width: 60px;
+}
+
+.all-cards-desktop .gender {
+  align-items: flex-start;
+  display: flex;
+  width: 12px;
+}
+
+.all-cards-desktop .vector-5 {
+  height: 6px;
+  left: 6px;
+  position: absolute;
+  top: 0;
+  width: 6px;
+}
+
+.all-cards-desktop .vector-16 {
+  height: 9px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 9px;
+}
+
+.all-cards-desktop .birth {
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 4px;
+  min-height: 14px;
+  min-width: 42px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .right {
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 196px;
+  min-height: 14px;
+  min-width: 46px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .seperator-1 {
+  background-color: var(--quill-gray);
+  border-radius: 2px;
+  height: 2px;
+  margin-top: 8px;
+  width: 302px;
+}
+
+.all-cards-desktop .info-b {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  min-height: 112px;
+  width: 302px;
+}
+
+.all-cards-desktop .homeworld {
+  align-items: center;
+  background-color: var(--gallery);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  min-width: 302px;
+  padding: 0 8px;
+}
+
+.all-cards-desktop .left-1 {
+  align-items: center;
+  display: flex;
+  min-width: 83px;
+}
+
+.all-cards-desktop .icon-6 {
+  align-items: flex-end;
+  display: flex;
+  overflow: hidden;
+  width: 16px;
+}
+
+.all-cards-desktop .overlap-group-5 {
+  height: 16px;
+  margin-bottom: 0;
+  position: relative;
+  width: 16px;
+}
+
+.all-cards-desktop .vector-17 {
+  height: 13px;
+  left: 1px;
+  position: absolute;
+  top: 2px;
+  width: 13px;
+}
+
+.all-cards-desktop .vector-18 {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.all-cards-desktop .text-1 {
+  letter-spacing: 0;
+  line-height: 10px;
+  margin-left: 4px;
+  min-height: 10px;
+  min-width: 63px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .text-2 {
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 148px;
+  min-height: 14px;
+  min-width: 55px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .info-b-item {
+  align-items: center;
+  background-color: var(--gallery);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  margin-top: 8px;
+  min-width: 302px;
+  padding: 0 8px;
+}
+
+.all-cards-desktop .left-2 {
+  align-items: center;
+  display: flex;
+  min-width: 60px;
+}
+
+.all-cards-desktop .icon-7 {
+  align-items: flex-start;
+  display: flex;
+  height: 16px;
+  padding: 0 2.8px;
+  width: 16px;
+}
+
+.all-cards-desktop .overlap-group-6 {
+  height: 15px;
+  position: relative;
+  width: 10px;
+}
+
+.all-cards-desktop .vector-19 {
+  height: 9px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 10px;
+}
+
+.all-cards-desktop .vector-20 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+
+.all-cards-desktop .vector-21 {
+  height: 1px;
+  left: 6px;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+
+.all-cards-desktop .vector-22 {
+  height: 5px;
+  left: 1px;
+  position: absolute;
+  top: 10px;
+  width: 8px;
+}
+
+.all-cards-desktop .vector-23 {
+  height: 5px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 6px;
+}
+
+.all-cards-desktop .text-3 {
+  letter-spacing: 0;
+  line-height: 10px;
+  margin-left: 4px;
+  min-height: 10px;
+  min-width: 40px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .text-4 {
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 141px;
+  min-height: 14px;
+  min-width: 85px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .left-3 {
+  align-items: center;
+  display: flex;
+  min-width: 67px;
+}
+
+.all-cards-desktop .icon-8 {
+  align-items: flex-start;
+  display: flex;
+  overflow: hidden;
+  width: 16px;
+}
+
+.all-cards-desktop .overlap-group-7 {
+  height: 16px;
+  margin-top: -0.23px;
+  position: relative;
+  width: 16px;
+}
+
+.all-cards-desktop .vector-24 {
+  height: 6px;
+  left: 9px;
+  position: absolute;
+  top: 1px;
+  width: 6px;
+}
+
+.all-cards-desktop .vector-25 {
+  height: 7px;
+  left: 1px;
+  position: absolute;
+  top: 2px;
+  width: 8px;
+}
+
+.all-cards-desktop .vector-26 {
+  height: 9px;
+  left: 8px;
+  position: absolute;
+  top: 7px;
+  width: 7px;
+}
+
+.all-cards-desktop .vector-27 {
+  height: 14px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.all-cards-desktop .vector-28 {
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 11px;
+  width: 5px;
+}
+
+.all-cards-desktop .vector-29 {
+  height: 2px;
+  left: 8px;
+  position: absolute;
+  top: 6px;
+  width: 2px;
+}
+
+.all-cards-desktop .text-5 {
+  letter-spacing: 0;
+  line-height: 10px;
+  margin-left: 4px;
+  min-height: 10px;
+  min-width: 47px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .text-6 {
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 177px;
+  min-height: 14px;
+  min-width: 42px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .footer {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 24px;
+  margin-top: 24px;
+  min-width: 168px;
+}
+
+.all-cards-desktop .back {
+  align-items: center;
+  background-color: var(--gallery);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  overflow: hidden;
+  padding: 0 12px;
+  width: 36px;
+}
+
+.all-cards-desktop .left-4 {
+  align-items: flex-start;
+  display: flex;
+  padding: 0 2.0px;
+  width: 12px;
+}
+
+.all-cards-desktop .vector-6 {
+  height: 12px;
+  width: 7px;
+}
+
+.all-cards-desktop .but-number {
+  align-items: flex-end;
+  background-color: var(--gallery);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  margin-left: 8px;
+  overflow: hidden;
+  padding: 7px 13px;
+  width: 36px;
+}
+
+.all-cards-desktop .no {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 9px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.all-cards-desktop .but-all {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  margin-left: 8px;
+  overflow: hidden;
+  padding: 0 10px;
+  width: 36px;
+}
+
+.all-cards-desktop .dots {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  width: 16px;
+}
+
+.all-cards-desktop .vector-30 {
+  height: 4px;
+  width: 4px;
+}
+
+.all-cards-desktop .vector-7 {
+  height: 4px;
+  margin-left: 2px;
+  width: 4px;
+}
+
+.all-cards-desktop .forward {
+  align-items: center;
+  background-color: var(--gallery);
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  margin-left: 8px;
+  overflow: hidden;
+  padding: 0 12px;
+  width: 36px;
+}
+
+.all-cards-desktop .right-1 {
+  align-items: flex-start;
+  display: flex;
+  padding: 0 2.0px;
+  transform: rotate(180deg);
+  width: 12px;
+}
+
+/*add card modal*/
+
+#modal-add-card {
+  position: absolute;
+  z-index: 1000;
+  width:300px;
+  height:300px;
+  left: 0px;
+  top: 0px;
+  
+}
+
+#modal-add-card-bg-fix{
+
+  background-color: green;
+
+}
+
+#modal-below-card{
+
+  z-index: -1;
+  
+}
+
+#pointer{
+  pointer-events: auto;
+}
+
+/*add card modal*/
+
+/* add flex to add cards view */
+
+
+#card-height-width-space {
+
+
+}
+
+#flex-container-add-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#flex-container-add-cards > div {
+  background-color: #f1f1f1;
+  margin-right: 10px;
+  width: 325px;
+  height:500px;
+}
+
+/* add flex to add cards view */
+
+/*Anima*/

@@ -1,0 +1,178 @@
+/* screen - deck */
+
+.deck {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  width: 216px;
+}
+
+.deck .top-info {
+  align-items: flex-start;
+  background-color: #c53030;
+  display: flex;
+  height: 98px;
+  overflow: hidden;
+  width: 216px;
+}
+
+.deck .flex-col {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  margin-top: 6.0px;
+  min-height: 72px;
+  width: 64px;
+}
+
+.deck .icon {
+  align-items: flex-end;
+  display: flex;
+  height: 16px;
+  padding: 0.7px 0;
+  width: 16px;
+}
+
+.deck .overlap-group1 {
+  height: 14px;
+  position: relative;
+  width: 16px;
+}
+
+.deck .vector {
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.deck .vector-1 {
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 16px;
+}
+
+.deck .place {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 32px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+.deck .overlap-group2 {
+  height: 135px;
+  margin-left: 12px;
+  margin-top: -18px;
+  position: relative;
+  width: 135px;
+}
+
+.deck .icon-rebel {
+  align-items: flex-start;
+  display: flex;
+  height: 135px;
+  left: 0;
+  opacity: 0.15;
+  padding: 12.0px 11.8px;
+  position: absolute;
+  top: 0;
+  width: 135px;
+}
+
+.deck .vector-2 {
+  height: 110px;
+  width: 108px;
+}
+
+.deck .but-1 {
+  align-items: center;
+  background-color: #635f5f7d;
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  left: 72px;
+  overflow: hidden;
+  padding: 0 12px;
+  position: absolute;
+  top: 34px;
+  width: 36px;
+}
+
+.deck .icon-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 12px;
+  width: 12px;
+}
+
+.deck .overlap-group {
+  height: 3px;
+  position: relative;
+  width: 12px;
+}
+
+.deck .vector-3 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 12px;
+}
+
+.deck .vector-4 {
+  height: 3px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 4px;
+}
+
+.deck .vector-5 {
+  height: 8px;
+  margin-left: 2.0px;
+  margin-top: 1px;
+  width: 8px;
+}
+
+.deck .top-info-total {
+  align-items: flex-start;
+  display: flex;
+  height: 56px;
+  margin-top: 16px;
+  width: 184px;
+}
+
+.deck .no {
+  color: var(--onyx);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 40px;
+  min-height: 40px;
+  min-width: 27px;
+  white-space: nowrap;
+}
+
+.deck .no-label {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 12px;
+  margin-left: 99px;
+  min-height: 12px;
+  min-width: 58px;
+  text-align: right;
+  white-space: nowrap;
+}

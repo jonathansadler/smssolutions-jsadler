@@ -1,0 +1,85 @@
+Pure express and sequelize and scafolding generater for drive, model ,controllers
+
+Driver
+
+Mysql
+Sqlite
+
+Example Card model
+
+Card Controller
+Pulls for swap.dev
+
+localhost:4444/api/cards/id/1
+
+Show Api docs
+
+Show Swagger build out
+
+Factions
+No enum in sequlize only supported in postgres
+
+Deck
+
+Assign Faction
+create
+
+localhost:4444/api/decks
+RAW/JSON Application
+Auth:write
+{
+    "name":"Micks Group",
+    "FactionId":1
+}
+
+Read all decks
+
+localhost:4444/api/decks
+
+delete decks
+
+localhost:4444/api/decks/id/7
+
+
+Card
+create (assign to deck)
+
+localhost:4444/api/cards
+
+{
+"swid":"null",
+"person_url":"https://swapi.dev/api/people/1/",
+"DeckId":1
+}
+
+
+{
+    "swid": "null",
+    "person_url": "https://swapi.dev/api/people/21/",
+    "DeckId": 4
+}
+
+
+search?limit=2 , inbuilt pagenation
+
+All Entities are crud capabable
+
+Install mysql phpmyadmin?
+or SQL Server?
+
+
+Auths
+
+        "type": "Basic Auth",
+        "read": {
+            "user": "api-read",
+            "password": "password-read"
+        },
+        "write": {
+            "user": "api-write",
+            "password": "password-write"
+        },
+        "delete": {
+            "user": "api-delete",
+            "password": "password-delete"
+        }

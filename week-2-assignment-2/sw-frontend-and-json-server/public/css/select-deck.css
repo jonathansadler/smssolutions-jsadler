@@ -1,0 +1,57 @@
+/* screen - select-deck */
+
+.select-deck {
+  align-items: center;
+  background-color: var(--gallery);
+  display: flex;
+  flex-direction: column;
+  height: 282px;
+  padding: 8px 0;
+  width: 216px;
+}
+
+.select-deck .text-label {
+  align-self: flex-start;
+  color: var(--mountain-mist);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 12px;
+  margin-left: 12px;
+  min-height: 12px;
+  white-space: nowrap;
+}
+
+.select-deck .seperator {
+  background-color: var(--pink-swan);
+  border-radius: 1px;
+  height: 1px;
+  margin-top: 4px;
+  width: 192px;
+}
+
+.select-deck .select-deck-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 6px;
+  min-width: 192px;
+}
+
+.select-deck .deck-a {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 2px;
+  display: flex;
+  height: 26px;
+  min-width: 192px;
+  padding: 0 8px;
+}
+
+.select-deck .text-label-1 {
+  letter-spacing: 0;
+  line-height: 14px;
+  min-height: 14px;
+  min-width: 99px;
+  white-space: nowrap;
+}
